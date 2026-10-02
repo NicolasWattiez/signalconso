@@ -12,3 +12,12 @@ __pycache__/
 
 # Local environment/secrets
 .env
+
+# Local data
+data/
+
+# Internal project logs / notes
+worklogs/
+
+# Exploratory SQL
+sql/work/
