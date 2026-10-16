@@ -6,8 +6,8 @@ L’objectif est d’analyser le parcours de traitement des signalements afin d�
 
 L’IA a servi de couche d’assistance à l’analyse et à l’organisation du projet, sous supervision humaine.
 
-**Dashboard Data Studio :** [à ajouter](DASHBOARD_URL)  
-**Source des données :** [SignalConso — source officielle](SOURCE_URL)
+**Dashboard Data Studio :** [ SignalConso — Analyse du traitement des signalements](https://datastudio.google.com/s/shOhrlCcef0)  
+**Source des données :** [SignalConso — source officielle](https://data.economie.gouv.fr/explore/assets/signalconso/export/)
 
 ---
 
