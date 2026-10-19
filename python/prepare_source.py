@@ -2,7 +2,6 @@ from pathlib import Path
 
 import polars as pl
 
-
 RAW_PATH = Path("data/raw/signalconso.csv")
 OUTPUT_PATH = Path("data/processed/signalconso.parquet")
 
