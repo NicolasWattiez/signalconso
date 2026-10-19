@@ -339,3 +339,30 @@ Les données brutes, worklogs, requêtes exploratoires et fichiers intermédiair
 Les identifiants de projet et de dataset BigQuery doivent être adaptés à l’environnement d’exécution.
 
 Les données sources et les fichiers analytiques générés ne sont pas versionnés dans ce dépôt.
+
+
+## Statut de la V1
+
+Cette V1 a été réalisée sous contrainte de temps avec une **Definition of Done fixée à l’avance**, puis figée le **19 octobre 2026**.
+
+L’un des objectifs du projet était également de démontrer une capacité à **travailler avec une deadline réelle**, à prioriser les éléments nécessaires à une V1 cohérente et à accepter que certains éléments soient dépriorisés lorsque le temps disponible ne permet plus de les traiter correctement.
+
+Le périmètre livré comprend :
+- l’analyse du parcours global des signalements ;
+- le diagnostic ciblé de `MalAttribue` ;
+- les modèles staging et marts analytiques ;
+- les requêtes SQL principales ;
+- une validation statistique ciblée en Python ;
+- un dashboard Data Studio public à deux pages ;
+- la documentation et les principales limites méthodologiques.
+
+Certains éléments prévus ou envisagés n’ont volontairement pas été finalisés avant la deadline, notamment :
+- des approfondissements analytiques supplémentaires ;
+- la consolidation de certaines requêtes de validation ;
+- le nettoyage et la publication du script statistique Python ;
+- certaines traductions et harmonisations de langue dans les artefacts du projet ;
+- des améliorations supplémentaires de présentation et de documentation.
+
+Ces éléments ont été conservés hors du périmètre final afin de privilégier la cohérence, la fiabilité et la complétude fonctionnelle de la V1 plutôt que d’étendre le scope jusqu’à la deadline.
+
+Le tag Git `deadline-snapshot-2026-10-19` identifie l’état du projet atteint à cette échéance.
